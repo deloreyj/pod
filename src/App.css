@@ -1,0 +1,102 @@
+body {
+  font-family: 'Athiti', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.pageTitle {
+  margin-bottom: 0;
+}
+
+.playwright {
+  margin-top: .5em;
+  color: #7A7A7A;
+}
+
+.totalReviews {
+  vertical-align: middle;
+  padding-left: 8px;
+}
+
+.reviewsContainer {
+  display: block;
+}
+
+.ReviewsList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 16px;
+}
+
+.SingleReview {
+  flex: 1;
+}
+
+.ReviewBasic {
+  width: 26%;
+  text-align: left;
+  padding: 12px 0;
+  border-bottom: 1px solid #B9B9B9;
+}
+
+.ReviewBasic-body {
+  padding: 8px 0;
+}
+
+.ReviewBasic-body > p {
+  margin: 0;
+}
+
+.ReviewBasic-link {
+  color: #e7711b;
+  cursor: pointer;
+}
+
+.ReviewBasic-link:active {
+  color: #7A7A7A; 
+}
+
+.ReviewBasic:hover {
+  background-color: #EDEDED;
+}
+
+.ReviewBasic-author {
+  color: #7A7A7A;
+  margin: 0;
+}
+
+.ReviewBasic-date {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 16px;
+  padding-left: 6px;
+  vertical-align: middle;
+}
+
+.StarRating {
+  display: inline-block;
+  unicode-bidi: bidi-override;
+  color: #c5c5c5;
+  font-size: 16px;
+  height: 16px;
+  width: 80px;
+  position: relative;
+}
+  
+.StarRating-css-top {
+  color: #e7711b;
+  padding: 0;
+  position: absolute;
+  z-index: 1;
+  display: block;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.StarRating-css-bottom {
+  padding: 0;
+  display: block;
+  z-index: 0;
+}
